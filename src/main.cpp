@@ -492,7 +492,7 @@ int main()
         j["dijkTime"] = dijkTime.count();
         return crow::response{j.dump()}; });
 
-    app.port(18080).multithreaded().run();
+    app.port(8080).multithreaded().run();
 
     // below is used for testing, comment it out for actual use
     /*cout << "enter input" << endl;

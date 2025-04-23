@@ -19,7 +19,7 @@ import {
 import { styled } from '@mui/material/styles';
 import PathDisplay from './components/PathDisplay';
 
-const API_ROOT = 'http://localhost:18080';
+const API_ROOT = 'http://localhost:8080';
 
 /* ---------- menu height ( ≈ 5 rows ) ------------------------------------- */
 const ITEM_HEIGHT = 48;
