@@ -1,0 +1,20 @@
+{
+    "configurations": [
+      {
+        "name": "Mac",
+        "includePath": [
+          "${workspaceFolder}/src",
+          "/opt/homebrew/include",
+          "/opt/homebrew/Cellar/crow/1.2.1.2/include",
+          "${workspaceFolder}/src/asio-asio-1-18-2/asio/include"
+        ],
+        "defines": ["ASIO_STANDALONE"],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "macos-gcc-arm64"
+      }
+    ],
+    "version": 4
+  }
+  
